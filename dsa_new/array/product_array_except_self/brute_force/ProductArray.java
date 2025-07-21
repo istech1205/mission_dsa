@@ -2,7 +2,7 @@ package product_array_except_self.brute_force;
 
 import java.util.Arrays;
 
-// TIME complexity is 0(n square) 
+// TIME complexity is 0(n square )  
 public class ProductArray {
 
     private static int[] getResult(int[] nums) {
