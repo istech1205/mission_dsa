@@ -1,0 +1,171 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+<<<<<<< HEAD
+      "name": "ProductArray",
+      "request": "launch",
+      "mainClass": "dsa_new.array.product_array_except_self.brute_force.ProductArray",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "ProductArrayExceptSelf",
+      "request": "launch",
+      "mainClass": "dsa_new.array.product_array_except_self.brute_force.ProductArrayExceptSelf",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "ProductArrayExceptSelf",
+      "request": "launch",
+      "mainClass": "dsa_new.array.product_array_except_self.ProductArrayExceptSelf",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "AnagramGroup",
+      "request": "launch",
+      "mainClass": "dsa_new.string_problems.anagram_group.optimize.AnagramGroup",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "AnagramGroup",
+      "request": "launch",
+      "mainClass": "AnagramGroup",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "Duplicate",
+      "request": "launch",
+      "mainClass": "dupicate.optimize.Duplicate",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "Duplicate",
+      "request": "launch",
+      "mainClass": "dupicate.better.Duplicate",
+      "projectName": "DSA-Course_81b33d67"
+=======
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "two_sum.optimize.TwoSum",
+      "projectName": "DSA-Course_57c76a0e"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "two_sum.brute_force.TwoSum",
+      "projectName": "DSA-Course_57c76a0e"
+    },
+    {
+      "type": "java",
+      "name": "BuySell",
+      "request": "launch",
+      "mainClass": "buy_sell.optimize.BuySell",
+      "projectName": "DSA-Course_57c76a0e"
+    },
+    {
+      "type": "java",
+      "name": "BuySell",
+      "request": "launch",
+      "mainClass": "BuySell",
+      "projectName": "DSA-Course_57c76a0e"
+>>>>>>> 62dab67 (updated)
+    },
+    {
+      "type": "java",
+      "name": "Duplicate",
+      "request": "launch",
+      "mainClass": "dupicate.brute_force.Duplicate",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "BuySell",
+      "request": "launch",
+      "mainClass": "buy_sell.optimize.BuySell",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "BuySell",
+      "request": "launch",
+      "mainClass": "buy_sell.brute_force.BuySell",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "two_sum.optimize.TwoSum",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "two_sum.better.TwoSum",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "two_sum.brute_force.TwoSum",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "TwoSum",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "Twosum",
+      "request": "launch",
+      "mainClass": "Twosum",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "twosum",
+      "request": "launch",
+      "mainClass": "twosum",
+      "projectName": "DSA-Course_81b33d67"
+    },
+    {
+      "type": "java",
+      "name": "practice2",
+      "request": "launch",
+      "mainClass": "practice.stackandqueue.stack.practice2",
+      "projectName": "DSA-Course_a1eaf40b"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "f:/DSA/DSA/DSA-Course/Array/problems/easy/checkArraySorted/brute_force",
+      "program": "f:/DSA/DSA/DSA-Course/Array/problems/easy/checkArraySorted/brute_force/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
