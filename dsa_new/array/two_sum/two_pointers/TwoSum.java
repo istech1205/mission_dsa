@@ -1,4 +1,4 @@
-package two_sum.optimize;
+package two_sum.two_pointers;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,24 +10,27 @@ public class TwoSum {
   // you may not use the same element twice.
 
   public static int[] getResult(int[] nums, int target) {
-    Map<Integer, Integer> map = new HashMap<>();
 
-    for (int i = 0; i < nums.length; i++) {
-      int diff = target - nums[i];
-
-      if (map.containsKey(nums[i])) {
-        return new int[] { map.get(nums[i]), i };
+    int left = 0;
+    int right = nums.length - 1;
+    while (left < right) {
+      int currentSum = nums[left] + nums[right];
+      if (currentSum == target) {
+        return new int[] { left, right };
       }
-      map.put(diff, i);
+      if (currentSum < target) {
+        left++;
+      } else {
+        right--;
+      }
     }
 
     return new int[] { -1, -1 };
-
   }
 
   public static void main(String[] args) {
-    int[] nums = { 1, 8, 15, 2, 5 };
-    int target = 10;
+    int[] nums = { 1, 2, 3, 4, 5, 6 };
+    int target = 7;
     System.out.println("nums-" + target);
 
     int[] result = getResult(nums, target);
