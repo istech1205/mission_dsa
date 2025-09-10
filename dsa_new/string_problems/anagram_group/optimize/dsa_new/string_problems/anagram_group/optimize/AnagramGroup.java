@@ -14,10 +14,10 @@ public class AnagramGroup {
         for (String word : input) {
             // System.err.println("words .. " + word);
             char[] chars = word.toCharArray();
-            // System.err.println("chars .. " + Arrays.toString(chars));
+            System.err.println("chars .. " + Arrays.toString(chars));
             Arrays.sort(chars);
-            // System.err.println("chars after sorted .. " + Arrays.toString(chars));
-            // System.err.println("As string key: " + new String(chars));
+            System.err.println("chars after sorted .. " + Arrays.toString(chars));
+            System.err.println("As string key: " + new String(chars));
             String key = new String(chars);
             System.err.println("key: " + key);
             if (!map.containsKey(key)) {
@@ -34,6 +34,6 @@ public class AnagramGroup {
         String[] input = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
         List<List<String>> output = groupAnagram(input);
-        System.out.println("output is .. " + output);
+        // System.out.println("output is .. " + output);
     }
 }
