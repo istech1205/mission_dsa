@@ -21,7 +21,7 @@ public class Consecute1 {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 1, 0, 1, 1, 0, 1 };
+        int[] arr = { 1, 0, 1, 1,1, 0, 1 };
 
         int result = getResult(arr);
         System.out.println("result is .." + result);
